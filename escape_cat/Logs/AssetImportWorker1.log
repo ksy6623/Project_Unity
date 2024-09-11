@@ -1,0 +1,916 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/user.DESKTOP-37G5MQD/Documents/GitHub/Project_Unity/escape_cat
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50452
+Successfully changed project path to: C:/Users/user.DESKTOP-37G5MQD/Documents/GitHub/Project_Unity/escape_cat
+C:/Users/user.DESKTOP-37G5MQD/Documents/GitHub/Project_Unity/escape_cat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2008]  Target information:
+
+Player connection [2008]  * "[IP] 220.81.199.154 [Port] 0 [Flags] 2 [Guid] 1958094069 [EditorId] 1958094069 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-37G5MQD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 11.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user.DESKTOP-37G5MQD/Documents/GitHub/Project_Unity/escape_cat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 730 (ID=0x4692)
+    Vendor:   Intel
+    VRAM:     8062 MB
+    Driver:   30.0.101.1371
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005259 seconds.
+- Loaded All Assemblies, in  0.300 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 512ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.505 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1043ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (539ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4291 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.0 KB). Loaded Objects now: 4753.
+Memory consumption went from 153.7 MB to 153.5 MB.
+Total: 2.774000 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.199600 ms MarkObjects: 2.092000 ms  DeleteObjects: 0.150100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/IPrebuildSceneSetup.cs: 086a540b86c9ccf5ce0a23935a64c98d -> c89711320cb5af11897ec50fd61d4419
+  custom:scripting/monoscript/fileName/EditorAssembliesProxy.cs: 23426c61d1cfec53ec65b1ed2f77c773 -> ef0f2d44f3e723650bf58ba30866667b
+  custom:scripting/monoscript/fileName/Deprecated.cs: 6d0ac89cd9b4b8eb26eaed33e326a054 -> 
+  custom:scripting/monoscript/fileName/OuterUnityTestActionCommand.cs: eacf156fb6f74d2f6b697bf47e9a72eb -> 36c13d7d2a2c5c2f372e7b1c0cc06d4d
+  custom:scripting/monoscript/fileName/TestJobDataHolder.cs: 1e3b4dec54d5610ff8a852c0a9fccf2b -> 2c9edeeac80ff44e86cac8087411d260
+  custom:scripting/monoscript/fileName/EditModeRunnerCallback.cs: 8a8dedaa2bec26f26744df4ec8e2f191 -> 
+  custom:scripting/monoscript/fileName/EnterPlayMode.cs: 3cb26e64a9bc927aa1556d517c8e8a78 -> c730bf9ff77514bb260ba9933378e49c
+  custom:scripting/monoscript/fileName/Filter.cs: 18ef22850e69a0e3e97548ae5b255f92 -> 935824dbebf762a19f2d4c4751625fe2
+  custom:scripting/monoscript/fileName/CollectionsAllocationExamples.cs: 72ea6f1c8990c690aca4410bcc8d43b6 -> 
+  custom:scripting/monoscript/fileName/UnityTearDownAttribute.cs: 4a3d30720366843ca221fd554845c187 -> d90d4ba0821a80f48bd6cec8eab8964f
+  custom:scripting/monoscript/fileName/FixedList.gen.cs: b9f85e7078e3f4ea022877423329d870 -> 05fbbc7f550e957bc7aed7ca5a31bd41
+  custom:scripting/monoscript/fileName/RemotePlayerTestController.cs: 83176596b43ae79e65d8c3ccfd7c1c75 -> e65e7856c7b5238a13243fffbf64f7eb
+  custom:scripting/monoscript/fileName/TestMustExpectAllLogsAttribute.cs: f1224ac9ffb401dcd2c905e6a783da06 -> cdf1c75549affd080e0ddbde5bcb7c34
+  custom:scripting/monoscript/fileName/TestBuildAssemblyFilter.cs: e3ae3b9dfa7b065b08d520845d4f070d -> 056870da734fd8ecf77d00737a22149f
+  custom:scripting/monoscript/fileName/ConditionalIgnoreAttribute.cs: 507a506f130880469465e0381c429447 -> 9f2f3d4c6b56d5f470ccdd0e1820d51b
+  custom:scripting/monoscript/fileName/ITestRunnerListener.cs: 07f2f49d67775d1bad20bc1589a5769d -> d52675266925b8e603f210be3981d59b
+  custom:scripting/monoscript/fileName/IEditorCompilationInterfaceProxy.cs: e8a39ed00046a7b93647d4de1a3e0e00 -> b1e49de3ac2ed1feea91c5f6846d6e49
+  custom:scripting/monoscript/fileName/EnumerableRepeatedTestCommand.cs: 229b55de651d474bc2ca3733382eef36 -> dbdc4517e80e66a31f48ce40e06931f2
+  custom:scripting/monoscript/fileName/CommandLineOption.cs: f2f0dbe72e14e05a5259c3e6cb3ececc -> 211f73ad4421274a5a418608b74cc839
+  custom:scripting/monoscript/fileName/IPostBuildCleanup.cs: 7bc004ae26b110cd32d3401b0981f815 -> 8d43f6dbc44addb43106f91d15047771
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TestListTreeViewDataSource.cs: 8b5a59ec2d06d36e63ce53a34e1d591e -> 153f0d5d9a6099f80f6d26e9c0ad6b7d
+  custom:scripting/monoscript/fileName/CommandLineOptionSet.cs: 6bb45bf9141d4fec50aae5aa4651fa84 -> 57b6c3812f217f48a5cedf066a216cfd
+  custom:scripting/monoscript/fileName/ITestRunCallback.cs: 0ac8617cc2dc9780c575b6eb03f6d505 -> 7d90e4d27cccfe89ef24a93578e15a74
+  custom:scripting/monoscript/fileName/IEditorAssembliesProxy.cs: 81289fa7514ad1168ecb67afff27720d -> 8586f95fda82b1fa948b8ac0ebb50a9d
+  custom:scripting/monoscript/fileName/AndroidPlatformSetup.cs: 56c28d48cf01b1b2c96f64a6827ffac4 -> 67d5fa212608c900d88b1544a5f49997
+  custom:scripting/monoscript/fileName/RenderingOptions.cs: a84cebfad0b53e3dbf0202be3cc1d6d3 -> 
+  custom:scripting/monoscript/fileName/WorkItemFactory.cs: 9cd58300f748e3250316447e9d2a8d06 -> d8b2e380888ccc980a475a01f04d7a45
+  custom:scripting/monoscript/fileName/PlayerLauncherContextSettings.cs: 89c041e42e3e6c336ae4ddeb40f2d12f -> 3c0a34dce28ade8f88b3e213fadb0738
+  custom:scripting/monoscript/fileName/RunSettings.cs: 5a658cb30d8baacca2f049c509a625f3 -> 7fffd8740290978b817d8ef253192a59
+  custom:scripting/monoscript/fileName/UnhandledLogMessageException.cs: d6d6ca25090fc3eec22959040bde30f3 -> fa6ee6fe2a221a71f213304ae56898c7
+  custom:scripting/monoscript/fileName/EnumerableApplyChangesToContextCommand.cs: 7e82e96f40f2bf4118aab6f6aef1d287 -> c2aa6cedc66892dd581c50a4d9b6a147
+  custom:scripting/monoscript/fileName/RecompileScripts.cs: 33cdfe80e47d8b05e5ee4c6c33b4993e -> 73e345449efb1420f34aad9debcdf2bd
+  custom:scripting/monoscript/fileName/DelayedCallback.cs: 4d96f98a05296a6e495fa9916bc0a91b -> e88c5396d33adcd6404b4cb8a051b2b1
+  custom:scripting/monoscript/fileName/OrderedTestSuiteModifier.cs: ddbca70bf46f5e4ca706b058ef23253f -> 6a8006d91a7636d39c6731494060c3c2
+  custom:scripting/monoscript/fileName/DefaultTestWorkItem.cs: df6f5a85dcc29cabfe426927cfff8766 -> f906b4fb5b78cb9d23a07212620919d9
+  custom:scripting/monoscript/fileName/TestRunnerApiMapper.cs: 213999ba10693518027e8ab0204d1885 -> 241489454095fad1d1d89166ee62820f
+  custom:scripting/monoscript/fileName/LegacyPlayerRunTask.cs: 328c044124055242f6ddb7aa596ab1d3 -> 148e0500b0761261bc418d25c26e82b1
+  custom:scripting/monoscript/fileName/Vector3ComparerWithEqualsOperator.cs: 6b9a33545ada02177d266ed1f5b19290 -> c497cde63ec72672e5f69e70b932688f
+  custom:scripting/monoscript/fileName/IGuiHelper.cs: c60290192a780a358cb4d2eed657f7f8 -> da57d3fb0f8ace42d5b01eed25e9e3d5
+  custom:scripting/monoscript/fileName/OutOfOrderExpectedLogMessageException.cs: 22c4a953865c583fd55d80a54c5d6c18 -> 4ff78bac16cc86124e588c20ad3ddba7
+  custom:scripting/monoscript/fileName/IPlatformSetup.cs: 9a0668684da27d1ddefa88d99d869448 -> 6f20476898784a15f8b8eb28653a67fd
+  custom:scripting/monoscript/fileName/TestTreeViewItem.cs: 3239fe248332ddd6a904d9cb0680e538 -> aae3d62f4daf680133c1c18c7814d15e
+  custom:scripting/monoscript/fileName/AssemblyLoadProxy.cs: c6dff8352382292b9959041d98303a41 -> 0f3a4ee005eb8f7b33161c2ba6196e00
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SaveUndoIndexTask.cs: ab03f94eed1b9c2e86cabe91ffdb6ab8 -> 6e0bcd5f418cf8184993174ac732fff4
+  custom:scripting/monoscript/fileName/TestResultRenderer.cs: 9bb52db8cdd7fbc7b27d62af73d00df8 -> 2e8123de6d2eea4d42efb7a87e150b27
+  custom:scripting/monoscript/fileName/WaitForDomainReload.cs: ec74674e8cae527fdeb410a81a4658a3 -> b6033700f0adcf3b23782f04c42e269c
+  custom:scripting/monoscript/fileName/ITestSettingsDeserializer.cs: e43933e90cb98a9555f922952cdb833f -> 22e37de7af2cea07971d0ba87110dad7
+  custom:scripting/monoscript/fileName/UnityTestAssemblyBuilder.cs: 9b6ef4c0578639ba943c8f65e1e8d74d -> fa151eb16842256647a2914b37e4bf9d
+  custom:scripting/monoscript/fileName/UnsafeScratchAllocator.cs: 01f77d5cff43f9c3b7ff3f46c4f36dee -> 4face5614d3825fa48ae79289f69aa1b
+  custom:scripting/monoscript/fileName/AnalyticsTestCallback.cs: 86b513e5c36f0343183de924372e6da6 -> 70c2658c96c40ebe349fda85c81dae6e
+  custom:scripting/monoscript/fileName/TestTaskBase.cs: 4b3bfcc0ce488c09e9c983c955b234c0 -> 162ca0c58961a22b2d7f2a866ccb62df
+  custom:scripting/monoscript/fileName/TestLauncherBase.cs: 55b4d99610fbeb9ecb7ee6ead3251104 -> c78237b225a855d3af10df4cd8d6a1b2
+  custom:scripting/monoscript/fileName/BurstCompatibilityTests.cs: 7d7c24becd314d1054104dfc27a7e1e1 -> 
+  custom:scripting/monoscript/fileName/FloatEqualityComparer.cs: 4dac02b3f722be0497415c960455318c -> 6ddc5d5b0944c660e6b695f37c9febc8
+  custom:scripting/monoscript/fileName/ResultSummarizer.cs: fcfdcb2adeeb82cb8f411b44b44abdb0 -> 
+  custom:scripting/monoscript/fileName/CompositeWorkItem.cs: 77037823112276c67676f1e42edf1cd2 -> bc884a89fde61fa75209209a03bbd836
+  custom:scripting/monoscript/fileName/RunFinishedData.cs: 35b8f95dad4fefe115ad61c2c01125ab -> a22f15c3a79d1f15ccc31ec29ab37874
+  custom:scripting/monoscript/fileName/BitField.cs: b82f9795c26d634f972340c254bcbc2b -> 435cec31f980ea5ce1d1e89b13684a57
+  custom:scripting/monoscript/fileName/PlayModeTestListGUI.cs: 9528035223f9376ea8c5bf32da2d30c1 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NativeQueue.cs: 04ccdb70e3fe61b0adb670089775b1a1 -> 81dfa04144b51b77899677497858a357
+  custom:scripting/monoscript/fileName/UnityTestProtocolListener.cs: 031f67bcc950e88772c7e00661691db9 -> 0d4d2ab58d3a081f00c0f200ee8696be
+  custom:scripting/monoscript/fileName/MonoBehaviourTest.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/UnsafeUtilityEx.cs: 633ec2e4629f58c9ca328fcd154061ec -> 51fdf80e1733ea661389b0969168e4eb
+  custom:scripting/monoscript/fileName/NativeArrayExtensions.cs: fe9f7490969f9aaf1b5c58af97269bef -> 480ae80e25a67512135651e8db7b75bc
+  custom:scripting/monoscript/fileName/TestResultRendererCallback.cs: 11a504294abe84b81ed7535d2d6b52d7 -> 215106b260625bb3e26681b849d9307d
+  custom:scripting/monoscript/fileName/PlatformSpecificSetup.cs: c7583018fa54cbb13353f07300f73380 -> 0a7f9c0b27ae370d8bd5d3df4916ae28
+  custom:scripting/monoscript/fileName/EditModeLauncherContextSettings.cs: 716154923321c522b7f6492b24dc4629 -> d1e413330d98a9101237ccbe91f95dea
+  custom:scripting/monoscript/fileName/PlayerQuitHandler.cs: b367910cee7b2e682885ab95e27ec0ea -> b4085dee8fd70ae04ac96945fafed489
+  custom:scripting/monoscript/fileName/PrebuildSetupTask.cs: c7a55bff004702e0146f0b7de9de0c32 -> a4e888a510b1441a257b12183e59237b
+  custom:scripting/monoscript/fileName/UnexpectedLogMessageException.cs: eb4b453bac6ce1ffa84fa1fcbecd8818 -> a7bbf32861c66018271b093fc1d1061b
+  custom:scripting/monoscript/fileName/RerunCallback.cs: ffe49cf602017087ffa7749d06513ace -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/ITestListCache.cs: 530322f74ae4ee44bba33a2f253d3260 -> 93f202374a8dd6602503d990ab2feb72
+  custom:scripting/monoscript/fileName/TestRunCallbackAttribute.cs: 0f465317bd2bfaae92f90a6ee84c0d18 -> c61459d4a70eab5bd767d5a1f82f55d8
+  custom:scripting/monoscript/fileName/PrebuildSetupAttributeFinder.cs: 2bad1feb91972325181c65f0d7b65426 -> 1f975f3a70c8f9747da919735d84e6c3
+  custom:scripting/monoscript/fileName/TestExtensions.cs: 06f4dc0f3112fa2e5582ace2497b1b80 -> 8e47deac44d7b87eaa5df5d00556dc15
+  custom:scripting/monoscript/fileName/TestEnumeratorWrapper.cs: 3f82598f123760f637b0f70a1f287d77 -> 3e969f8448dc5644f60fbcb6f1badbcb
+  custom:scripting/monoscript/fileName/LogWriter.cs: a4f5ec34386b4e23f87b43dd16f6db46 -> 89105d9cfbe59e79a996dde998b3e7ff
+  custom:scripting/monoscript/fileName/AttributeHelper.cs: 9458f4b34c0ac14db5c169abc8e43f94 -> dcab3630cb119e1a5f7f9c7b24677e49
+  custom:scripting/monoscript/fileName/TestRunCanceledException.cs: 95340416bb18b4fa3930cdab2cc1fc66 -> ff7dc6bce365deb50fafe94b823009cb
+  custom:scripting/monoscript/fileName/ISettingsBuilder.cs: 519472d4601ec620807556de1c3db699 -> af84c62ea6a033820a24a2d04c70d5c3
+  custom:scripting/monoscript/fileName/Vector4ComparerWithEqualsOperator.cs: 3cde4a46f80e6bcedaef4297c8060490 -> 982db4358832ddfb456522b96543f1da
+  custom:scripting/monoscript/fileName/UnityTestExecutionContext.cs: eca56c04b69a8399029cc9730daae5fd -> 4c0ef8e8d96fc20b3ec58c9447d6ec92
+  custom:scripting/monoscript/fileName/SaveModiedSceneTask.cs: 135adac13be698ff4439d6c6268aa5b8 -> 
+  custom:scripting/monoscript/fileName/TestSettingsDeserializer.cs: a44271a81256da8d6d9195e1628af709 -> 2daa2d89ea5f024d33cb1e72a3d35d63
+  custom:scripting/monoscript/fileName/TestResultSerializer.cs: 52a416bb91eef89cbb19dd3cf67adb65 -> b75c8de5ed0cf8b4071350488249260d
+  custom:scripting/monoscript/fileName/EditModeTestListGUI.cs: 8831f0ca2dcd13614282b516af72c688 -> 
+  custom:scripting/monoscript/fileName/UTF8ArrayUnsafeUtility.cs: f1993200a43e577e4281cd674f04c6d8 -> 98dd75294b6f494d8648143302130ee6
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandState.cs: ffd46073254dc1bdb5c1bca6005d67d9 -> 590f9af42d8f6706b758d6c33b25bf7d
+  custom:scripting/monoscript/fileName/ICommandLineOption.cs: 147751a92efc4c8cac91a9a528c2fb1c -> 58da599070a3bdab08afc8355de79ed5
+  custom:scripting/monoscript/fileName/FixedStringFormat.gen.cs: 38890b5823888ffb1d702d73fcfe2e56 -> bee80dd64417b695a3ab4edd137d6566
+  custom:scripting/monoscript/fileName/EditModePCHelper.cs: fed3c3b34697ace66d06f26c80e9297a -> e16a214ddb2d161f4792170cb0c8e6aa
+  custom:scripting/monoscript/fileName/AssemblyNameFilter.cs: 6517804d9019b844c3f33c3b43a18f84 -> ce7ef29746fb23841833950bb87cfa6a
+  custom:scripting/monoscript/fileName/RemotePlayerLogController.cs: 6007c2a9667c47ca237ace4f2531438b -> 158b55f2a8781eb1cac7ac26acd42fc6
+  custom:scripting/monoscript/fileName/EnumerableTestState.cs: 074d7b301977647491f399c62e52cbc1 -> 30e3efb82d3f99d65cdecdd2f0bc0194
+  custom:scripting/monoscript/fileName/UnityTestAssemblyRunner.cs: 3816e248a2cfe06e2622e0204123f53a -> 6329fd25aa4b3ce344b8f9506a5c2047
+  custom:scripting/monoscript/fileName/ITestPlayerBuildModifier.cs: 144d61bec4e604c687a559324e865570 -> fe113c86bde5fdad424c8cc5e51fe0a4
+  custom:scripting/monoscript/fileName/RemoteTestResultDataFactory.cs: 82b227499ad613fb85cbd7542a960c8c -> 875f30f4d57949231d64836d9e348a72
+  custom:scripting/monoscript/fileName/UnityTestAttribute.cs: f0f5f36d5b331df20c3357ff1637e397 -> a53f050fb661d50bb6c962963a554f8e
+  custom:scripting/monoscript/fileName/TestListCache.cs: 8e95164bb40beaf2361efc98dc17a66b -> ff7c7e6ac29ad86c5fe33a64ed0d2f4f
+  custom:scripting/monoscript/fileName/UnityTestMethodCommand.cs: adc652ef2db502396e2bc23b9d9a66f3 -> ccfa8ff8b49ded2664d646e8ee3d5ff4
+  custom:scripting/monoscript/fileName/NativeSort.cs: 965ff403b3acd574b0cc2a405a3492e0 -> 764ab68303923f171c9d865bbecae455
+  custom:scripting/monoscript/fileName/Unicode.cs: 66944459fa841cd5f2e5e5b715987ea9 -> f97bf556b0d99c0ed9d5ebf00a173353
+  custom:scripting/monoscript/fileName/ITestRunnerApi.cs: 7ab503b15e3438e134c0702f000eb0a9 -> a476c74c9cbf5732bdfc8c88b9702476
+  custom:scripting/monoscript/fileName/Vector4EqualityComparer.cs: 2b4abe9ea592b7513d6aeaf121d66f76 -> 998bf018f3e79a3b4501bebf13133ef3
+  custom:scripting/monoscript/fileName/EditorLoadedTestAssemblyProvider.cs: 30976bb8f0671594f080cfda4f365c0a -> 406b39f61e53aa4b6c435e30af6b5276
+  custom:scripting/monoscript/fileName/Utils.cs: 4f18160f025c896811866814d3bd305e -> 0eff127b5ad20a0d67b02389c453a1e7
+  custom:scripting/monoscript/fileName/ResultsWriter.cs: 45d4009781f259d024c859617b776a29 -> ccd0afcd43fc96f0f8be5313b60e6c07
+  custom:scripting/monoscript/fileName/LuminPlatformSetup.cs: a7bbd552cf00b6b349997b7d2e68359d -> e65a295a4e58fc042cc74afa9243a080
+  custom:scripting/monoscript/fileName/EditorAssemblyWrapper.cs: 1da4fb3eb1b01bdabc7899984e06e2b2 -> 8682dbb48030d53c622cd194bfa9e87d
+  custom:scripting/monoscript/fileName/RequireApiProfileAttribute.cs: 519035bad40b0361872a678d221fcd1e -> 4cce4894a0d08ef40fd237b8e50d1caa
+  custom:scripting/monoscript/fileName/CleanupVerificationTask.cs: 66002b5b43bdce8f787c2d84fc03dc42 -> 12e81b196e7eac521f1ae8e0411b3d28
+  custom:scripting/monoscript/fileName/UnsafeAppendBuffer.cs: 5df87a068933b42c11333ea2c09a90a6 -> 5a9572fb3414d7d386993b9deda40896
+  custom:scripting/monoscript/fileName/EnumerableSetUpTearDownCommand.cs: 6c84bee1095d71c3f496285ac7de29fb -> 16b603dbb9724508977696171a42991f
+  custom:scripting/monoscript/fileName/EnumerableTestMethodCommand.cs: dfec1548954add0987599d6dd0f01df0 -> 9040b48595c4d63d6c1126d81d3f1105
+  custom:scripting/monoscript/fileName/EditorCompilationInterfaceProxy.cs: e4c0c6a3551d03ebd5ce8bc0c8444c16 -> 12bc7b3dd0ab2ff83629d76ca37d0d4d
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/TestResultAdaptor.cs: 39fb6e85727c0d47ffa8785f61586e3d -> fb4db3971d5379750cda884e7e44e3e4
+  custom:scripting/monoscript/fileName/PostBuildCleanupAttribute.cs: 31fa08dd08b1105fe7a49dcbe5b1ac85 -> 71391ff444f943d9ad8dd0d42b7ac81f
+  custom:scripting/monoscript/fileName/TestTreeData.cs: 0f4cb01478895c7c3d9e4409dc682c1d -> 1859d24be324d8fb87ab0c693d76d928
+  custom:scripting/monoscript/fileName/Vector3EqualityComparer.cs: b5ef1af8e8222802b1e616dabbbf7eb3 -> 1c8652cac1f220d6409ab1ba3f211615
+  custom:scripting/monoscript/fileName/ScriptingRuntimeProxy.cs: e5e5d36b9b276c8f6937a94b5dfabde5 -> 19d9ac4d844404a0464698120ed39275
+  custom:scripting/monoscript/fileName/UnsafeBitArray.cs: 8b1bdaea810722acaa2ff4f2725253fe -> abcfe76ff9b3c6727a0af119db7d6cb2
+  custom:scripting/monoscript/fileName/NativeHashSetExtensions.gen.cs: 63db070ab3fd6601a2653ee7ef6af335 -> 
+  custom:scripting/monoscript/fileName/RestoreTestContextAfterDomainReload.cs: f915dc737a51db5619c0ddbc3d7e4801 -> 3f8ddcbc7c316ccf5012287995780eb2
+  custom:scripting/monoscript/fileName/WindowResultUpdater.cs: 62ee47153c9bac0200ac618954dd51d8 -> 605812b0e2a9a0174e15ed86a3d5ac57
+  custom:scripting/monoscript/fileName/Icons.cs: fab81a9d523e5a61e28f0f54bbcc88b3 -> abf089f96620a0dfa1fac77a06c6c48e
+  custom:scripting/monoscript/fileName/IAssemblyWrapper.cs: c5aecaa35bc67342edbe5a12fdcda610 -> 993dbd556e2f14ec6d4f6bce6cb00191
+  custom:scripting/monoscript/fileName/UITestRunnerFilter.cs: 06335d4aeb6c8af701629dcac5fd648c -> a9e31eaec62dd508fa917eadb1c52808
+  custom:scripting/monoscript/fileName/NativeHashMapExtensions.cs: a0b4921e21fd612511729421feb17818 -> 
+  custom:scripting/monoscript/fileName/IUtpLogger.cs: ebcfd45287927053700f4f66ff35b501 -> 1b41334d9fc4fd5edb024e0bd2a6db56
+  custom:scripting/monoscript/fileName/BuildTestTreeTask.cs: 96cb982a37fe5925168754787bdebc15 -> ca4a5380bc07f43d0ad6bc5c2ca39b4b
+  custom:scripting/monoscript/fileName/TestListGuiHelper.cs: 6d40eb061ebdba07e078b90b14eadffd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TestResultExtensions.cs: f40703becc02ea8bc3b6c19d19f9d745 -> 1c512e213c49ce6d72b9d37b957b9372
+  custom:scripting/monoscript/fileName/LogMatch.cs: 3705a2877c87af4c4355c7933d389895 -> fed715ef044674dde53628d58d931b50
+  custom:scripting/monoscript/fileName/TestCommandPcHelper.cs: acbadd8ac17c9074f1c7f1b037d57596 -> f958b2880473418011bc0cda18245d1e
+  custom:scripting/monoscript/fileName/CallbacksDelegatorListener.cs: f80c4f45fed6816f24285f468af00026 -> 
+  custom:scripting/monoscript/fileName/TestRunnerWindowSettings.cs: edf34156a2b1507caf7c6651f5ea4bc3 -> fb70b758f65d0605100dbd9482b7158e
+  custom:scripting/monoscript/fileName/FixedStringParseMethods.cs: b9c5c6bc186a56f95ff8f60db0da9fea -> fcdca1abcdc2fd593bd0d11b27b9b2c5
+  custom:scripting/monoscript/fileName/AnalyticsReporter.cs: c71b24da736c66608a20411bc3a519d2 -> 990f0ccd7dd9ebe56483e30a572c9394
+  custom:scripting/monoscript/fileName/TestEnumerator.cs: bf6d1620a5c6bd3f28c72bbfed80e429 -> 26328e1622cb69ba0b1e01e906e7f65f
+  custom:scripting/monoscript/fileName/EnumerableRetryTestCommand.cs: 73d6d5af06eff02f63f972c0d9d4ad7c -> b281084796eb91cc19de80f3f2b73a56
+  custom:scripting/monoscript/fileName/UtpDebuglogger.cs: 06c62e7bf4b353d0d89b78258065c40a -> 2f96cd7ac1384aa23e8238df80ef8354
+  custom:scripting/monoscript/fileName/QuaternionEqualityComparer.cs: 1bf489e3042604f863689ba3c73f9e1b -> 0787e0a336d915c2829c2f55fd970a0d
+  custom:scripting/monoscript/fileName/ITestAdaptor.cs: 2a73ddc53f1c7b5bf11396536f687ca4 -> 1f6228260995615097fc339d08bee2f4
+  custom:scripting/monoscript/fileName/ITestSuiteModifier.cs: 2c6fc66f35fdd1866881280ae909eaa5 -> 4374b14ce25f3e6c8b983b3d579e38b4
+  custom:scripting/monoscript/fileName/xxHash3.AVX2.cs: fdda91c938d02bed6e1f482b8680a1e1 -> bbc99b1bfd2f994ebd53a189bfb34bc9
+  custom:scripting/monoscript/fileName/RemoteTestResultReciever.cs: 3396dcbdb7cfcd933b2182fbc1532e1a -> 
+  custom:scripting/monoscript/fileName/ExitPlayMode.cs: 64d4ea6d596aecaf913f45e499564e88 -> f2eb63cb1a92bddb334eb5c2d75abc43
+  custom:scripting/monoscript/fileName/IStateSerializer.cs: c5a3e7fac8482b2fe72d059b34fdea4b -> 2c22f7cb714163eee04bfe4b72ec4957
+  custom:scripting/monoscript/fileName/UnityTestProtocolStarter.cs: d1e78341b65caa27eeb465ea61128aba -> e4b107bc354fd6dcbd62420da6500b7c
+  custom:scripting/monoscript/fileName/UnsafeStream.cs: c7cd97d658f9f034dc47ca5f1dcaf8b2 -> 256399a9cf220f56a541766f1fe0b55f
+  custom:scripting/monoscript/fileName/BuildActionTaskBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IEditModeTestYieldInstruction.cs: e4c6a749d843914165935ce080f657d8 -> ad49fb85f2d4ed0badb27552deac0771
+  custom:scripting/monoscript/fileName/CachingTestListProvider.cs: cac67f32d723c8745a1f511390945781 -> bfcb79acce43a93633071168c814d063
+  custom:scripting/monoscript/fileName/UnityPlatformAttribute.cs: 05ff6a4a5828d32604e864a3b44f3fb8 -> e79555e200698f1b55c6c54851cd369e
+  custom:scripting/monoscript/fileName/TestStarter.cs: e2d0587cebe915ea1c55ef726c6bd082 -> d1bc3fba65bb4735afc3828355ea6c72
+  custom:scripting/monoscript/fileName/TestPlayerBuildModifierAttribute.cs: e033609ef117a17dda08e3556f30bfa5 -> d4ffc53911ef24dec9dc901e0444a77b
+  custom:scripting/monoscript/fileName/ITestListCacheData.cs: 1c95486e8d67b5eedd3530759306c580 -> 09682e3e03141d9f43100cdaff3665eb
+  custom:scripting/monoscript/fileName/TestListCacheData.cs: 1f5a847fa8b54233f179d3f9f5a719db -> 295232838ed90f85679b2d004562d59e
+  custom:scripting/monoscript/fileName/Is.cs: 0371baf7f4d4fda1df93e36baa3a7f7c -> 6922f89182cd28e32ba48e34cda7947d
+  custom:scripting/monoscript/fileName/TestListGUIBase.cs: 3323ae02564bf80ecb144d790edf3454 -> a2b53f3d1923dc6fb3d7f4c9f9855104
+  custom:scripting/monoscript/fileName/WindowResultUpdaterDataHolder.cs: e4b0333fa05c0f3ef2128a54294a2588 -> 2de8ba1615f5d28c30d54411d42e2524
+  custom:scripting/monoscript/fileName/HeapString.gen.cs: 2f8bea3137363b1eadd89d8db8473288 -> 
+  custom:scripting/monoscript/fileName/PlayerConnectionMessageIds.cs: a896cc1ebb022b48f652641f623e4c5c -> 2e4b7265f0eeb40e1260d00fe6e4614e
+  custom:scripting/monoscript/fileName/AllocatorManager.cs: fd4b11245ef8a88a6d73111a3aa09315 -> 6a169e9c866de7fd317e09158a992ddc
+  custom:scripting/monoscript/fileName/RemoteTestResultDataWithTestData.cs: 21f6a5ed6216bf99941b16dfe0613ec5 -> bcf701fb298ed6f8cab894b203300c37
+  custom:scripting/monoscript/fileName/SwitchPlatformSetup.cs: 86e207190212b6666c14096ec0beb845 -> 576de741bbd585688af4b8aaf70f0708
+  custom:scripting/monoscript/fileName/FixedStringAppendMethods.cs: b9c5c6bc186a56f95ff8f60db0da9fea -> fcdca1abcdc2fd593bd0d11b27b9b2c5
+  custom:scripting/monoscript/fileName/TestJobData.cs: dd8022c251f18f66be1e9ea8898c1c1c -> 194f4626c5a4649f7b9d85aa9d59e59a
+  custom:scripting/monoscript/fileName/RuntimeTestRunnerFilter.cs: 230571a0569274dbd5e47e4595a3be33 -> 526247a6af82c71973a55c9c5be36280
+  custom:scripting/monoscript/fileName/ITestSettings.cs: 608b72c12786bbdd128c096353cc10e2 -> 7d6676128f469c2eefb2813ec592ab4f
+  custom:scripting/monoscript/fileName/RemoteTestResultSender.cs: 570055716108540c9c34e71343ce0f03 -> 2b6acbe484994dc310d0ac406904e742
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AttributeFinderBase.cs: b09010f5776af2a4f3460127027ca105 -> 7e104530f871143fdb60a169114dd663
+  custom:scripting/monoscript/fileName/PlaymodeLauncher.cs: a8de3b5051116e1769b8336e5ae33f81 -> 7559db6722a49842c0446e2fd98b6c97
+  custom:scripting/monoscript/fileName/UnsafeMultiHashMap.cs: 0ecf0b5b4a9207402e80b603ad9a119c -> 
+  custom:scripting/monoscript/fileName/ExitCallbacksDataHolder.cs: 2a73f9623aa81becb5d8d11a43747b12 -> 
+  custom:scripting/monoscript/fileName/TestAdaptorFactory.cs: ac39772b57c14123c1a057d315d0217c -> b9e4d12260befcd688940e2c80db8ee8
+  custom:scripting/monoscript/fileName/IEnumerableTestMethodCommand.cs: e89b2da6fd5c9e148c3a0687c618f62e -> 81260787415c187c9e413e476b816cd2
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeHashMap.cs: c9f2dedc752c8b31243335a46ad2dc75 -> 39aa0c6e76ed394fb7a6e5c6d3a1d416
+  custom:scripting/monoscript/fileName/AssetsDatabaseHelper.cs: 3deb384d73768aa5a87c1835c3d7553a -> e690d63c7b932a5efaeaf8c476198e75
+  custom:scripting/monoscript/fileName/PerformUndoTask.cs: a88080dc60788c59917e5a5da2beea27 -> f38e53873dc9c7e638622dda18102b41
+  custom:scripting/monoscript/fileName/RuntimeTestLauncherBase.cs: 545e0e1c1701551e51a349e0cfbf7e09 -> 9c570bd0d91da3e5211e4436ad92314b
+  custom:scripting/monoscript/fileName/FixedStringFormatMethods.gen.cs: b9c5c6bc186a56f95ff8f60db0da9fea -> fcdca1abcdc2fd593bd0d11b27b9b2c5
+  custom:scripting/monoscript/fileName/TestActionCommand.cs: 9d9a215c413c4354b3d31801a3312f5a -> 753f99c04dd69dc2a43030237870dd1f
+  custom:scripting/monoscript/fileName/BaseDelegator.cs: 39f1c059498e3e1e37d5e631bbc24cc7 -> d270baecbc007d1328bc5c9991d1dea9
+  custom:scripting/monoscript/fileName/TestRunCallbackListener.cs: 6d0e8c714fa72bff0fe809d3fbb8d587 -> 15fa13086a2949901b1e4a3584b83cd8
+  custom:scripting/monoscript/fileName/IOuterUnityTestAction.cs: 1f62717facda0b560b4af9da3d21fc98 -> 58e7f8b884a5d88e319b8f448f29bfdb
+  custom:scripting/monoscript/fileName/TestSettings.cs: df291dfe8fbaf1e1f1d4ae4925c14a92 -> d583ccee803a035f2d53ba29374aac19
+  custom:scripting/monoscript/fileName/RewindableAllocator.cs: 983da03d30ca63695dda77dea78656e5 -> 4089b9c4ae60dc958d5a7e1ba3e3231e
+  custom:scripting/monoscript/fileName/SynchronousFilter.cs: fb46e705a687283ca79c6357a2f78760 -> b84da53d6d10348793b3683f19a6d4b3
+  custom:scripting/monoscript/fileName/LegacyEditModeRunTask.cs: 2b5f09ef7f63773ca676d71969800516 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayerLauncherTestRunSettings.cs: 5d2b9db2556b475d527662dfc40538f1 -> ac04d6a6a9c6380f318071a2f4da8a2f
+  custom:scripting/monoscript/fileName/ActionDelegator.cs: 0b37ded58104f18659a880de95881951 -> f2eb6c2fd33630cfdd6d3183b4a2ca3f
+  custom:scripting/monoscript/fileName/ITestRunnerApiMapper.cs: 864c8f6cc3985f3365e8b5f02afeb230 -> 337d02b691c8103d2eedc6b52f4f76ab
+  custom:scripting/monoscript/fileName/RerunCallbackInitializer.cs: a2ca4a4e4bb070fd30ec377e61ed66cb -> 
+  custom:scripting/monoscript/fileName/UnsafeHashSet.cs: 2b4455e6e3b12ad5b28b297ffca2f154 -> 5e2ab9cfe81e04de31d18dbafae66b8c
+  custom:scripting/monoscript/fileName/ICallbacks.cs: e6fb4966887be0b97bef44d92d561a69 -> a9c5fd289272fce7e09c7f3e5f11b8a0
+  custom:scripting/monoscript/fileName/IEditorLoadedTestAssemblyProvider.cs: 0be7fc5fa38a5453fe58cce555760ed4 -> cbb3f715010afa8cd4f0f40294bb78ba
+  custom:scripting/monoscript/fileName/NativeStream.cs: 06272c03bf2d87c3c499ea2670889e0a -> 4cf18747cbaec64bafc4dffb1a0c8454
+  custom:scripting/monoscript/fileName/TestListProvider.cs: 58a05dfe9100cc52adea57fc4a0b6c62 -> f8235933605b6a025c9638df0194bf97
+  custom:scripting/monoscript/fileName/InvalidSignatureException.cs: 293ad969d76fdecf7dc5f86949047e54 -> f250eccc836ee674127ecdee41f7a4ea
+  custom:scripting/monoscript/fileName/FixedString.gen.cs: fe10abd3f17ffcedc46ad3ee1d799153 -> d2f928251c83a855a881376014d83b13
+  custom:scripting/monoscript/fileName/UnitySetUpAttribute.cs: 4ed69b5a4764c67bceaa6f04d0d8776f -> 78bcd37bf54751e70200df4ae24f405b
+  custom:scripting/monoscript/fileName/PlayModeRunnerCallback.cs: 10f699e46ae6f3eea3e1c18bf2bc25ed -> 6cd874bc3032a6eaf4228f5877b27ba0
+  custom:scripting/monoscript/fileName/ICallbacksDelegator.cs: 3824b8185f5cd32ad0de995dbcedd1e3 -> 2bfa822de05a601b9fbe2f79d4d317c0
+  custom:scripting/monoscript/fileName/TestAdaptor.cs: 8d757a7cd1f19e6976312b3b884a590f -> 486cec8559bad7c56adc699f165feb67
+  custom:scripting/monoscript/fileName/TestStartedMessage.cs: f3c1a94a591f54531913c8a032d9a4b8 -> ac38229ae4e3c67de75cf9d77c73b95e
+  custom:scripting/monoscript/fileName/CallbacksDelegator.cs: c76e06d7a0a6084464f55a923795d8df -> e0dcdade48f633c0a7cebc925bd686c4
+  custom:scripting/monoscript/fileName/NativeList.cs: a4b50f61153c9adfd2de2676a637a671 -> c3402f2e6b9e01dc298871eb0e4b6a91
+  custom:scripting/monoscript/fileName/PlayerLauncherBuildOptions.cs: 1155187d1390024c0e84b222b67c4059 -> 39352f62028667e3cc8d13371f828f55
+  custom:scripting/monoscript/fileName/RegisterFilesForCleanupVerificationTask.cs: 89d04f0389116a1354de9cde88045aa7 -> f18fd2d946c9ea52b8232f47d6d70221
+  custom:scripting/monoscript/fileName/UnsafeHashSetExtensions.gen.cs: 08ce05b79144f37e3fa725c81fe15267 -> 
+  custom:scripting/monoscript/fileName/TestRunnerStateSerializer.cs: 68058e60ab6d5d33b7935f4205c97bb2 -> 7206f4f1eb4c5991ea76b5c39830dba4
+  custom:scripting/monoscript/fileName/LogEvent.cs: a1178cf4bd49345a2f924044f341effd -> 9bf386b9808c16608387e196f7a5e9d6
+  custom:scripting/monoscript/fileName/PlaymodeTestsController.cs: 7726dd936e1c608c494987ba2754eb47 -> 59c9d4597d46ecf4c6fbc8f49c64d0b9
+  custom:scripting/monoscript/fileName/TestListTreeViewGUI.cs: 5d4e7ac9fc0c5382f19d49599ef6cbd8 -> bf873c97e960a33b0be65a5b638e7ff5
+  custom:scripting/monoscript/fileName/TestRunnerCallback.cs: 3f7ae5a8df9bcb46078b38e8c1f1247f -> 61231fce5590e38bfc5e9165e9803d8b
+  custom:scripting/monoscript/fileName/TestJobRunner.cs: e4deb98063838e020557c338e0bd4ebb -> 1c3d9f2bfcdac33a01c4bb25c392ab4f
+  custom:scripting/monoscript/fileName/FailCommand.cs: fba5f7b9c1e8d00f41e9076aac4a1d8d -> e0622be95cb9f4c04ff53066589d6d7e
+  custom:scripting/monoscript/fileName/BurstCompatibleAttribute.cs: 5516bac227e59cc058e743022f755993 -> 
+  custom:scripting/monoscript/fileName/TestRunnerApi.cs: b582e8d89da1ce04ff5e8605fa1b5a2e -> b5c17af6fa247dfc791b512a209021d3
+  custom:scripting/monoscript/fileName/IUtpMessageReporter.cs: 02b26b8c414970dd7d96e6dcfbe9a861 -> e8e6a62b6032a5642706a62156dd8314
+  custom:scripting/monoscript/fileName/IErrorCallbacks.cs: 525b2a3e515b976057d42e4abfcec602 -> fd7a49712e8a919d38dd0fddef8872df
+  custom:scripting/monoscript/fileName/IScriptingRuntimeProxy.cs: 207c12828ef43f5ca31b3bcec485e9f7 -> c75af2a6ef439df9f19f151aeb5749ea
+  custom:scripting/monoscript/fileName/ExitCallbacks.cs: 716173503afdef0ae4c4023adba1972e -> 
+  custom:scripting/monoscript/fileName/UnsafeAtomicCounter.cs: 7400a6c6976e960578ea1e0663a5a7bc -> 9e2f4dbe854338916842c8ff7fbe03de
+  custom:scripting/monoscript/fileName/ImmediateEnumerableCommand.cs: e79fd27a9b7f6505ae6a4aa7c72274db -> 89dd27d23dccf969b99d79611e8fed9a
+  custom:scripting/monoscript/fileName/ApplePlatformSetup.cs: 4b442da1fea709240aeaf74bde720d3c -> 0ceeffeb4378c50fe08ff9b5d16a73f3
+  custom:scripting/monoscript/fileName/FixedStringMethods.cs: b9c5c6bc186a56f95ff8f60db0da9fea -> fcdca1abcdc2fd593bd0d11b27b9b2c5
+  custom:scripting/monoscript/fileName/LogAssert.cs: 8c30e2367a22f747fb9a538551ddb198 -> 195ab501c85f741ece9ac8b49385dcce
+  custom:scripting/monoscript/fileName/ITestListProvider.cs: 4f1a13a1dbecabb9f7515cef8fe120ff -> 0169c532d74787e64cd4163cd55d4572
+  custom:scripting/monoscript/fileName/AllocatingGCMemoryConstraint.cs: 2542b507c3de77a99c0db5c1357ffb65 -> 8b2ed7fbfb529ba318fb8425f7a81278
+  custom:scripting/monoscript/fileName/LegacyPlayModeRunTask.cs: 1ebf3ecf72354d225087c2e6d274bc6a -> 8a159c990fea520d0af36b86d243e79e
+  custom:scripting/monoscript/fileName/TestCommandBuilder.cs: 7c013615052dfed5e39b8bb914f01cb8 -> bf61faf29c0aea0c4e5d4ac76abaee13
+  custom:scripting/monoscript/fileName/ITestResultAdaptor.cs: 8d865eb70a8464f5288b9274d9abc979 -> bb9e1bbb2ff45e5a5f11e877a24721d7
+  custom:scripting/monoscript/fileName/UnsafeNotBurstCompatible.cs: 45b7b795a55a7021f271055f3bab9cbb -> 9920b2dcf54d07855dc87b05b9a22299
+  custom:scripting/monoscript/fileName/Vector2ComparerWithEqualsOperator.cs: b6f6b1f33f1b74ed974042f5e0303f0d -> 1851f392f974d4a42efb0de68a402e9b
+  custom:scripting/monoscript/fileName/TestFinishedMessage.cs: 90745d8bb0dd1bfeebb724d118b2d483 -> ccd3538dc4059cd71acd9bfea48dbc80
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Vector2EqualityComparer.cs: c680a095e66b9bf90931050b8b145b65 -> 4ac8b0db10bbdb7ea68d4be944c5b941
+  custom:scripting/monoscript/fileName/ITestTreeRebuildCallbacks.cs: c7090567546723c1f0a184a18f5ac1fe -> f952713f83d574a58f719696be7e52a3
+  custom:scripting/monoscript/fileName/FileCleanupVerifierTaskBase.cs: 50c4fc5e4ffaa31cb467fc75616b7129 -> 8c0e90b329ac988e22429767c222f3c6
+  custom:scripting/monoscript/fileName/UwpPlatformSetup.cs: c89362d564a60469ebbb75e8e12d340a -> b9f50f93de5f547a7eaf96f1bc58a80f
+  custom:scripting/monoscript/fileName/TestRunnerWindow.cs: beab6dc6591535c1b37ec310f1e15af0 -> 156fc89bab7bdd82ca70e07c9aa9ebbd
+  custom:scripting/monoscript/fileName/FixedStringInternalMethods.cs: b9c5c6bc186a56f95ff8f60db0da9fea -> fcdca1abcdc2fd593bd0d11b27b9b2c5
+  custom:scripting/monoscript/fileName/ColorEqualityComparer.cs: 9c477fa3f8fc3439b732377dad0e7a34 -> 9ae684bc4a6b608abc9f7f131bd7cb1d
+  custom:scripting/monoscript/fileName/IAsyncTestAssemblyBuilder.cs: f88864ba85e2ec28df36a1a7af1974da -> d4bd9849c11964145b1082a4b1d477fa
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/RunData.cs: 91eb6697698b63fe6764d1aca25f1f65 -> 772bee3d6504258eed6027a2ae076850
+  custom:scripting/monoscript/fileName/ResultsSavingCallbacks.cs: aaf02a1e7a92c3896802c1deb489aa0f -> 96b4b28711ac58ce3dc199f3f7371922
+  custom:scripting/monoscript/fileName/RerunCallbackData.cs: 4e0f854372c4476a9269ddc9aa7c8edb -> 
+  custom:scripting/monoscript/fileName/PostbuildCleanupAttributeFinder.cs: 23c3a89f1d3b5b5defeaa7555afa30b6 -> a060814a414a9bab17671800d815861d
+  custom:scripting/monoscript/fileName/IRemoteTestResultDataFactory.cs: c24506e6d6305475bf6a430f77ac582f -> 75d430448dca0118dc834f9aa964be1e
+  custom:scripting/monoscript/fileName/TestRunnerUIFilter.cs: d43f81399e97649a77164015894ec5cc -> 15cddad256d0a7abe9cb58af110bbb72
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NativeText.gen.cs: 7959db2d96f0c7fc8f8a2a669eb85d60 -> 3378437e9418f3373bee971ecd3b9445
+  custom:scripting/monoscript/fileName/IAssemblyLoadProxy.cs: df5d93b09382b84c770bb8c70be641c2 -> 10a2bd4f9f1d29ac107ff7e510533c16
+  custom:scripting/monoscript/fileName/ConcurrentMask.cs: c539262411251c63a21ef73803af4584 -> d56a0fef284c9e5059f89974aedb695c
+  custom:scripting/monoscript/fileName/EditModeLauncher.cs: 9a2b5bcdc6140673378e5f8105411606 -> 
+  custom:scripting/monoscript/fileName/GuiHelper.cs: ce709a7d3615bce262722b2ac52d710b -> 7bbb51d455f8994ae6185c7dee04068a
+  custom:scripting/monoscript/fileName/NativeReference.cs: 093e06c3a4dec7ddff8658acaa3e1ec0 -> 707aa775b4e3cc858cb239cb84a29e93
+  custom:scripting/monoscript/fileName/TestFilterSettings.cs: 5275be823d4854688aedadf9bf48dfa8 -> 
+  custom:scripting/monoscript/fileName/PlaymodeTestsControllerSettings.cs: e4d6c3f42e8f4d17c80242b34c68fd06 -> 90cec9ec9d50d9e797d7b80fa88b49ed
+  custom:scripting/monoscript/fileName/UnsafeHashMap.cs: 3c819f0279d2392c0b26834aa25eb5b7 -> 94f8e54b68df661c8d45e8cea71cf2f5
+  custom:scripting/monoscript/fileName/StacktraceFilter.cs: 0a3b08d5dc42e75c1d72e2851ec00d95 -> 2f4728b5b8f653bd2197ec8c4b722e7d
+  custom:scripting/monoscript/fileName/SettingsBuilder.cs: 2166bdf8e77dc5f252cf6909a9196c25 -> 9aeeee75a181ed82e0343a1fb6b9cead
+  custom:scripting/monoscript/fileName/SetupException.cs: fa81854dd78d6f47fd79d813aacdb097 -> 38724dd55c58f65b09d9fda4b6161021
+  custom:scripting/monoscript/fileName/NativeNotBurstCompatible.cs: 0a51ebcb2f40a253cc1ed4725493949f -> 8e8b404b4fa69e1b7cea25947e47b9bd
+  custom:scripting/monoscript/fileName/LogSavingCallbacks.cs: 273a5ca581d39891e634ebf18363d22c -> 8eb93b3e2c76ea1a8acb6e2d0b5c5f91
+  custom:scripting/monoscript/fileName/ITestAdaptorFactory.cs: bdc8323a65aed17f1190c56e7c6cfc5f -> 0cef1125679c38dd172e82c8aed26eb9
+  custom:scripting/monoscript/fileName/TestListJob.cs: 12fc4e0dee9c9032467b6469e3bed3a6 -> 3a58b9c1d09f7f4ecb41254c8497b5c7
+  custom:scripting/monoscript/fileName/AssemblyWrapper.cs: 27441573157e5964a8aeb7d356d13908 -> 888ba979193ec837feef9add74101219
+  custom:scripting/monoscript/fileName/Executer.cs: 115c3fa08937a7411c01dd40a690d19e -> 3f667ef14fa1c500658713b8aa31fd85
+  custom:scripting/monoscript/fileName/FullNameFilter.cs: 03e8efaa11fd7332f02cf89719dd5868 -> 7c49c279cb0d631ca64d8b7d70065d9c
+  custom:scripting/monoscript/fileName/PlayerTestAssemblyProvider.cs: 4e1569ec89688dc213248db31fc5f2f8 -> cbdd04f669e4e0054bad4f9d3133a10c
+  custom:scripting/monoscript/fileName/AssetPipelineIgnore.cs: 0d6998b45aa259f19df735cf43f30691 -> 09786e27e9aef22fa608d3ec356f88ff
+  custom:scripting/monoscript/fileName/PrebuildSceneSetupAttribute.cs: ab58680b1420f8e2f2a2597e848d8216 -> 7863da9f66129a3cef8eac0a1f19b990
+  custom:scripting/monoscript/fileName/UnsafeRingQueue.cs: bcfc7f01444a1737307396b9706cf593 -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/Message.cs: 6525f110369b368a724db9468ed4c271 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/TestTreeViewBuilder.cs: 8dcd834c64e4c5915b417a6eadea3b2a -> 6e6e33e8d70cf17e89715badfaf4fed5
+  custom:scripting/monoscript/fileName/EditmodeWorkItemFactory.cs: 59e0f470d3c4d6fcf2997a182c89bbcb -> e9c8ba8d2a4b7d9a886e64626b2e6205
+  custom:scripting/monoscript/fileName/TestListenerWrapper.cs: d3b4dda00570273ec0c1794249fac5d6 -> 9bd83ba3a6a675f3c605795064caa62b
+  custom:scripting/monoscript/fileName/FixedStringUtils.cs: 615b4692935c15496ce08484481db0bb -> 114eb023c5774372990da700f8c2456f
+  custom:scripting/monoscript/fileName/ExecutionSettings.cs: 3e46076abe70bbfac850fc39d98561b1 -> bbd5f229f5dcda0d2d7d6fe8eb266a59
+  custom:scripting/monoscript/fileName/CallbacksHolder.cs: 064e7d359062664728ef608c9f03a07c -> 8b4255bb9b31589c4c3dd9303007381d
+  custom:scripting/monoscript/fileName/NativeBitArray.cs: 3c2944e878a1117db969fcced8ed2c57 -> 49f79507956a183761c1507d27f1d72b
+  custom:scripting/monoscript/fileName/CategoryFilterExtended.cs: 4662b13a61207dc88937c796423baa70 -> fc9bf6f795e045112c18a4c1343c1ae1
+  custom:scripting/monoscript/fileName/RequirePlatformSupportAttribute.cs: 7ce6733bee18de599a69cb974c92fdb6 -> 6918694e41aa1ffd5ee72bd04646d4bb
+  custom:scripting/monoscript/fileName/NativeMultiHashMap.cs: 232e6e149bb81d9963c795b02084c8f4 -> 
+  custom:scripting/monoscript/fileName/Memory.cs: 3a1fc630a1762ba3d249699dcc2a7943 -> 24fa5e8e684139a9a6b2bb764c620a28
+  custom:scripting/monoscript/fileName/xxHash3.StreamingState.cs: c37160ac47c119b599190b6c7a43dd9e -> 73af6f62e3ccfaecb2c43562b8c60a23
+  custom:scripting/monoscript/fileName/UnsafeList.cs: 638c6fc022ca3aa24cc63b6730a5c455 -> 2cbf932c5895a21a8a81c7efd4eee03c
+  custom:scripting/monoscript/fileName/TestPlatform.cs: 1e3283087fad58204285b5e9c2e16b4e -> 63c69f9b78d9a1c2cdf167569fd572b6
+  custom:scripting/monoscript/fileName/CollectionsExamples.cs: 5c3c7e50116fce8e4387bbf68d9603e4 -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultData.cs: ff93ebb056d1cf8fdc7e897597b04ef6 -> 68a2b51f8872b9ef697b2155d9835735
+  custom:scripting/monoscript/fileName/IMonoBehaviourTest.cs: 272926e14fa72b11b0070eae8b5853ef -> 93dca3fac2d68012529173d3e7bc10a2
+  custom:scripting/monoscript/fileName/CoroutineTestWorkItem.cs: 8fab9934b84f896f44392a777ae472de -> 8a69ee5c1adc29acc0a66cb7df14cbcf
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnityWorkItemDataHolder.cs: 5e123fac5cc49e9acfe91048eee308ae -> 94e44d74f673f889418b2b9926b6615c
+  custom:scripting/monoscript/fileName/ICallbacksHolder.cs: e330f681a4da017eb82339063a410722 -> 790e89a97c8150c3044e584386d3ba9a
+  custom:scripting/monoscript/fileName/PlayerLauncher.cs: 7004f613ecfe1e179e7b362c88c3ddb7 -> c1129f48ad00377c128c470482bb7e8e
+  custom:scripting/monoscript/fileName/UnityCombinatorialStrategy.cs: bd44b85caa82e1f08c977cc9d9157c40 -> e857e6faada8b59173cb249a8a6be6fa
+  custom:scripting/monoscript/fileName/CoroutineRunner.cs: bb2107d11619bb60075736a2632662be -> 06bef19f6905915189ed09a2db9f2885
+  custom:scripting/monoscript/fileName/ConstructDelegator.cs: 7526886647893577a45527c0f6393600 -> c271ca33e5434ac87e82546dd149c303
+  custom:scripting/monoscript/fileName/UnityLogCheckDelegatingCommand.cs: 109adc74b3ab14d952109f6ed35bdacf -> 410acedf83a5c4e9d5a212b5635d0c88
+  custom:scripting/monoscript/fileName/ILogScope.cs: dd29c4b8ed4c54280ca787c474cdd843 -> e99dd640a2ac2c8b1c0c97725f23440d
+  custom:scripting/monoscript/fileName/xxHash3.cs: 4193607f6e1edd0570d2359862a27850 -> d876f695d67b3d527466020445c50eb8
+  custom:scripting/monoscript/fileName/UnityWorkItem.cs: 03c602cd83845fe6265dc83816099666 -> ce02ef2c77c866afeb6c04a89a364a8a
+  custom:scripting/monoscript/fileName/IAssetsDatabaseHelper.cs: 8bbb0e39e3cfde6c5b6c11074d90971a -> 4f8027cddf715e38f75ab454f20fe051
+  custom:scripting/monoscript/fileName/Attributes.cs: 0918f2ac579e1d4ee97c23132d40c768 -> 
+  custom:scripting/monoscript/fileName/ConstraintsExtensions.cs: 19d048a2938a4b2b178e7e91279126b7 -> 89e01f1f8de15d891db3bad70117d924
+  custom:scripting/monoscript/fileName/EditModeRunner.cs: 0c2c70d0e910f1733ef8492efbf3dda1 -> f1ceb581ae48e42ca32e80f796ce45bc
+  custom:scripting/monoscript/fileName/TestRunnerResult.cs: 2b3fdbda67626b6faa7139ccea15b17a -> 613fb3e1dfef14aa9d5aea2cd635ffff
+  custom:scripting/monoscript/fileName/UnityTestTimeoutException.cs: 7c70971bbddd1caf6485b8c5b935d369 -> b7ec28ea102309dc20886c45fff1e1b5
+  custom:scripting/monoscript/fileName/DebugView.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/UtpMessageReporter.cs: 6f35c7d2ea8786c1fd8fe557180d6c38 -> 1ce82c57220e51532d6b3e5da0cecc24
+  custom:scripting/monoscript/fileName/EnumeratorStepHelper.cs: a2fa98a2f974f377b9c2905ce60dea0f -> 05022a723dcf173476ccb43403871168
+  custom:scripting/monoscript/fileName/UnsafeText.cs: 5615c516f201aea71ee957e425a17288 -> 252c4eef6eb1893b89e3a585d7b05a84
+  custom:scripting/monoscript/fileName/PlaymodeWorkItemFactory.cs: a61a7bf2d749182a50c049a0ad4afb89 -> 8bb2d7c0ad22b08cf17b1748007ae8c3
+  custom:scripting/monoscript/fileName/RemoteTestData.cs: 5baf4798e5344c86aa4ccafb41b2624c -> 51ba1ddd57fb71948e60067806b9cfcd
+  custom:scripting/monoscript/fileName/StadiaPlatformSetup.cs: 589eaf4f5c2f63a79deb4c2735e3b746 -> 27e00e91e04b4888c1d6354fa4baa6a5
+  custom:scripting/monoscript/fileName/NativeHashSet.cs: 2b4455e6e3b12ad5b28b297ffca2f154 -> 5e2ab9cfe81e04de31d18dbafae66b8c
+  custom:scripting/monoscript/fileName/LogScope.cs: 51679d4f7708329af3d47e56656f8988 -> a032a8edefa3a04276b9f24e5047f2ac
+  custom:scripting/monoscript/fileName/TestPlanMessage.cs: 15cf5225dc1e7b1718be35fb09144b5b -> 6199b0505360321c39d00a607adaaf8d
+  custom:scripting/monoscript/fileName/ITestRunSettings.cs: 7462715f6a540bde0acfd50948410d32 -> a5342276210c7f86635118880184dc77
+  custom:scripting/monoscript/fileName/ListExtensions.cs: 53a13f9e80dd394abe55b725d1e20214 -> 0f96dfdcfd19dc46bb3b974629f04481
+  custom:scripting/monoscript/fileName/SetUpTearDownCommand.cs: 2a0e8cc178919ce84c52af1a4ddfce30 -> 684e5d1c75373405f8a6c9575324286f
+  custom:scripting/monoscript/fileName/EditorEnumeratorTestWorkItem.cs: 7bf37d3cd666bc3e840f63f05aae4d05 -> b8f886476b7c18f3c1cdeae30ec0c8ea
+  custom:scripting/monoscript/fileName/CollectionHelper.cs: 43c7963f3cd4f164a58eb56b8095def9 -> 1ca9b633c4b3ee37c8eb00c963039ea7
+========================================================================
+Received Import Request.
+  Time since last request: 3871.240909 seconds.
+  path: Assets/scripts/group9_Counter/Forever_ShowCount.cs
+  artifactKey: Guid(b9b7872a565d44501aa347c5ad048dc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group9_Counter/Forever_ShowCount.cs using Guid(b9b7872a565d44501aa347c5ad048dc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9e3054b49a3963585a9cf33dc2204687') in 0.075135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/scripts/group7_Prefab/OnOutsideScene_DestroyMe.cs
+  artifactKey: Guid(486338d283ad34ab69be8f659b1c32d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group7_Prefab/OnOutsideScene_DestroyMe.cs using Guid(486338d283ad34ab69be8f659b1c32d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eca2bef428d8fed51e64599ee5abf403') in 0.011898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprite/lmages/cat_S_2.png
+  artifactKey: Guid(dd4fa3a5c835b6e46b9bcc91965f5118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_S_2.png using Guid(dd4fa3a5c835b6e46b9bcc91965f5118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a4731057d3bb4ee52ddfd7bb27bd40e') in 0.055669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/group4_MouseDown/OnMouseDown_Roulette.cs
+  artifactKey: Guid(76e5dc8fc9c1945a7971f7d578460541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group4_MouseDown/OnMouseDown_Roulette.cs using Guid(76e5dc8fc9c1945a7971f7d578460541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8620530660f552e82379238b50780ed0') in 0.009277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprite/lmages/cat_L_7.png
+  artifactKey: Guid(9ce76098dbf872f4ca5e8de84b058c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_L_7.png using Guid(9ce76098dbf872f4ca5e8de84b058c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79b839cb6c8e6730ee54998d4b63a169') in 0.017892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/lmages/cat_R_6.png
+  artifactKey: Guid(51afcd20f7da60d459e2f238fb6bf2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_R_6.png using Guid(51afcd20f7da60d459e2f238fb6bf2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f63960e0a7312573ae20e5f5cdcae690') in 0.021037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/scripts/group2_Move/OnKeyPress_MoveSpriteH.cs
+  artifactKey: Guid(da74b28afc2e04573a2b12bf4910ca6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group2_Move/OnKeyPress_MoveSpriteH.cs using Guid(da74b28afc2e04573a2b12bf4910ca6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67ac0b0a99738202006e83e564c17c76') in 0.011161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprite/lmages/cat_U_2.png
+  artifactKey: Guid(6063be79c75cb504891cd9a6a787792b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_U_2.png using Guid(6063be79c75cb504891cd9a6a787792b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e56cc5d4b33cf89adff67dd71d448b9') in 0.022433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprite/lmages/cat_J_4.png
+  artifactKey: Guid(1226b21fbecb8eb4bb06d7b5917fd7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_J_4.png using Guid(1226b21fbecb8eb4bb06d7b5917fd7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9df908fee254305906dffaa6ec839fba') in 0.018080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/group4_MouseDown/OnMouseDown_Rotate.cs
+  artifactKey: Guid(c556d27d85aa841729676d0d003ad4aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group4_MouseDown/OnMouseDown_Rotate.cs using Guid(c556d27d85aa841729676d0d003ad4aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51951fa5b0a87db67740ec646934e507') in 0.010479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/group8_Gravity/OnUpKeyPress_Throw.cs
+  artifactKey: Guid(b97f5b1c178554d8ea5ec261e7caca98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group8_Gravity/OnUpKeyPress_Throw.cs using Guid(b97f5b1c178554d8ea5ec261e7caca98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29568ab8fa6c0bf52469a9ffaa68ed43') in 0.009914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/group7_Prefab/OnTimeout_DestroyMe.cs
+  artifactKey: Guid(c9df716246a5d417eb816ef35931134f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group7_Prefab/OnTimeout_DestroyMe.cs using Guid(c9df716246a5d417eb816ef35931134f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f5c74c800871edaff908d9cd6ab4f7d') in 0.011145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/scripts/group8_Gravity/Forever_ChaseCamera.cs
+  artifactKey: Guid(53dad9ac8e3304d3fa0da2bfa53cfaf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group8_Gravity/Forever_ChaseCamera.cs using Guid(53dad9ac8e3304d3fa0da2bfa53cfaf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe38c65fd4302322266447d857b7af7a') in 0.013158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprite/lmages/cat_J_6.png
+  artifactKey: Guid(95e32feec40618d46b5aadb11d6cab3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_J_6.png using Guid(95e32feec40618d46b5aadb11d6cab3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39ebd98ec183b86bf05c618025554328') in 0.017715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprite/lmages/cat_R_5.png
+  artifactKey: Guid(0fa4f8020ea605345b7cac59a929bda6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_R_5.png using Guid(0fa4f8020ea605345b7cac59a929bda6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76d23a302692b80cfc639389b47021e1') in 0.019708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/lmages/cat_L_2.png
+  artifactKey: Guid(b17ba74e4c1cd7247addae7879086df3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_L_2.png using Guid(b17ba74e4c1cd7247addae7879086df3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f76196d0b82fbeaadbc36d32183a47e9') in 0.018483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/group9_Counter/OnCountFinished_StopGame.cs
+  artifactKey: Guid(aa12e6bd39c264907bcee41fb91f3e44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group9_Counter/OnCountFinished_StopGame.cs using Guid(aa12e6bd39c264907bcee41fb91f3e44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0985181dd9845288a3d031c10bf1466') in 0.011250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/lmages/cat_J_1.png
+  artifactKey: Guid(bc77d89b22d74644eb64e1880d608d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_J_1.png using Guid(bc77d89b22d74644eb64e1880d608d02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e840c9e4c670c42a50ab302797b62484') in 0.020217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/group1_Forever/Sometime_Turn.cs
+  artifactKey: Guid(2058ed1762d1f4ee8838e96e6d12a8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group1_Forever/Sometime_Turn.cs using Guid(2058ed1762d1f4ee8838e96e6d12a8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50610e03259c269f3e3cd66933793d73') in 0.010401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/scripts/group8_Gravity/Forever_ChaseCameraH.cs
+  artifactKey: Guid(0d825769e06af4c8494d4fcf1a9ff848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group8_Gravity/Forever_ChaseCameraH.cs using Guid(0d825769e06af4c8494d4fcf1a9ff848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35da4b274a298575955103de6e2af5ae') in 0.011234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/lmages/cat_D_6.png
+  artifactKey: Guid(bdcd18538366a87459e09edfefc5a913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_D_6.png using Guid(bdcd18538366a87459e09edfefc5a913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78de80c4fab1331ad0eb8610e98d45c3') in 0.016415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprite/lmages/cat_R_4.png
+  artifactKey: Guid(666a0f7b2725db041b0da19210bec24b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_R_4.png using Guid(666a0f7b2725db041b0da19210bec24b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46d867f4feb85626f072cf100c939c29') in 0.015394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/scripts/group1_Forever/Sometime_Flip.cs
+  artifactKey: Guid(e23a9f7ca69be4853b72ac71f298943f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group1_Forever/Sometime_Flip.cs using Guid(e23a9f7ca69be4853b72ac71f298943f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '997690f5fd1766090ae1410d45fbd4d4') in 0.010967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/group2_Move/OnKeyPress_Move.cs
+  artifactKey: Guid(2594896e1fa2549d6be8e5519cddf928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group2_Move/OnKeyPress_Move.cs using Guid(2594896e1fa2549d6be8e5519cddf928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23570c40102b7fe9b02687c9ee1030ee') in 0.010374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/group10_Other/OnMouseDown_DragStart.cs
+  artifactKey: Guid(624df213e14f849979c9a0155c4b8507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group10_Other/OnMouseDown_DragStart.cs using Guid(624df213e14f849979c9a0155c4b8507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f52f8bb5cc9093c7c699aed873164149') in 0.012686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scripts/group3_Collision/OnMultiCollision_Hide.cs
+  artifactKey: Guid(14c28c39462984c6a9d4e898935e47bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/scripts/group3_Collision/OnMultiCollision_Hide.cs using Guid(14c28c39462984c6a9d4e898935e47bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4d1f46a5612642037c4dd60678330e7') in 0.011196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprite/lmages/cat_SD.png
+  artifactKey: Guid(8e3aeda48f8fbfb49b700939778418be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_SD.png using Guid(8e3aeda48f8fbfb49b700939778418be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2cc2ee1358ba9fdd7bead0ea39cf753') in 0.017383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/lmages/cat_J_7.png
+  artifactKey: Guid(d2d09b198da655b46a2847cb688bc1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_J_7.png using Guid(d2d09b198da655b46a2847cb688bc1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d2cc01c54f6ddaaf21cc6b480cbbdb7') in 0.019045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ba13547fee00d7b321faf6fe596477b') in 0.010982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprite/lmages/villain_R_7.png
+  artifactKey: Guid(0ec629cfb318f1449ab31ebd82cd69d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/villain_R_7.png using Guid(0ec629cfb318f1449ab31ebd82cd69d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca80571a0b90f78cbee9473c4e8134ca') in 0.016911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '877fb7a0306106561ab281e7cf740536') in 0.014666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f3ea39a5fc676dc9c3a52a774cdf96d') in 0.015302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprite/lmages/villain_R_1.png
+  artifactKey: Guid(8b4ed38affc5aac4bab92e0c79edcdad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/villain_R_1.png using Guid(8b4ed38affc5aac4bab92e0c79edcdad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07bcd9fbb89fca7a76d52293c5e8d1ac') in 0.016568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b770194807ef3327e4aab8b01c6f67ab') in 0.016945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/lmages/title.png
+  artifactKey: Guid(1eb1b0fd81b64084685e32bac7082c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/title.png using Guid(1eb1b0fd81b64084685e32bac7082c37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24297c8935cbaef451f307aff38bb8ea') in 0.017607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abf810712a55edf77a7a316805426121') in 0.009542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0180abe64d3fa14ccf13cabb79783b90') in 0.015882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d58143a5eb8c3d11f0a06604dbea8e9') in 0.017169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdb4e4b0003843aead9c9e5e940a89f9') in 0.010551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1230ade5477a8d27bec3feb950e4f4e2') in 0.010689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Fonts/Maplestory Bold.ttf
+  artifactKey: Guid(db4aee05e7d3b9d49b154eb753707e89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/Maplestory Bold.ttf using Guid(db4aee05e7d3b9d49b154eb753707e89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7de99a00980af5210efa1349f64db8a9') in 0.021948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite/lmages/시작.png
+  artifactKey: Guid(04f0544bb9a417d4580aef64ad5429a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/시작.png using Guid(04f0544bb9a417d4580aef64ad5429a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6720faa585fd2894d0ab767d690de9d3') in 0.018104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '450e19b7bcba17e05503bb863563df64') in 0.016274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Fonts/Maplestory Bold SDF.asset
+  artifactKey: Guid(66abadc81d99ccf4da01dd3c75a723de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/Maplestory Bold SDF.asset using Guid(66abadc81d99ccf4da01dd3c75a723de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14b3c71a34b54b80ca237a514924c263') in 0.180567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprite/lmages/cat_U_7.png
+  artifactKey: Guid(69552a7c2aaf2d34cbd553f49e231ca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/lmages/cat_U_7.png using Guid(69552a7c2aaf2d34cbd553f49e231ca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '646e8541f76fd001a3b55d7cac49a203') in 0.018035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
